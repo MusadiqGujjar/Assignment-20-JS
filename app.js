@@ -1,0 +1,261 @@
+// chapter 04
+// (Variable names Legal and Illegal)
+
+// var productCost = 3.45;
+// console.log(productCost);
+
+// var age = 23;
+// console.log(age)
+
+// var firstName ="Musadiq"
+// var lastName = "Gujjar"
+// var fullName = firstName + lastName;
+// console.log(fullName);
+
+// Legal & Illegal Variables
+// Legal Variable Names
+// var name;
+// var _name;
+// var $name;
+// var name1;
+// var firstName;
+// var first_name;
+// var user123;
+// var myVar;
+// var $dollar_and_underscore_;
+// var camelCaseVariable;
+
+// Illegal Variable Names
+// var 1name;         // Starts with number
+// var first name;    // Contains space
+// var var;           // Reserved keyword
+// var function;      // Reserved keyword
+// var @name;         // InvMusadiqd character "@"
+// var my-name;       // Hyphen not allowed
+// var new;           // Reserved keyword
+// var let;           
+
+
+// Chapter 5 
+// (Math Expression I)
+
+// var remainder = 13 % 3;
+// console.log(remainder); //Output: 1
+
+// var num = 20 % 6;
+// console.log(num); //Output: 2
+
+// var largeNum = 1000 * 2000;
+// console.log(largeNum) //output: 2000000
+
+// var x = 20;
+// var y = 10;
+// var result = x - y;
+// console.log(result); //output; 10
+
+// var remainderNumber = 15 % 4;
+// console.log(remainderNumber); //output: 03
+
+// var num = 10 * 5;
+// alert(num)
+
+
+// Chapter 6 
+// (Math Expression II)
+
+// var x = 5;
+// x += 1; // now x is 6
+// let x = 5;
+// x++; // now x is 6
+
+// var x = 100;
+// x--;             // x becomes 99
+// console.log(x); // Output: 99
+
+// var x = 50;
+// var y = x++;
+// var y = ++x;    // Output: 51
+// console.log(y) // Output: 50
+
+// var y = 50;
+// var z = --y;
+// console.log(z)  // Output: 49
+
+// var num = 10;
+// var newNum = num--;
+// console.lof(newNum) // Output: 09
+
+// var num = 10;
+// num++
+// alert(num)
+
+
+// Chapter 7 
+// (Math Expression III)
+
+// var calculatedNum = 2 + (2 * 6);
+// console.log(calculatedNum) //Output: 14
+
+// var calculatednum = (2 + 2) * 6;
+// console.log(calculatednum); // output: 24 
+
+// var calculatedNum = (2 + 2) * (4 + 2);
+// console.log(calculatedNum) // output: 24
+
+// var calculatedNum = ((2 + 2) * 4) + 2;
+// console.log(calculatedNum) // output; 18
+// Explain
+// 2 + 2 = 4;
+// 4 * 4 = 16;
+// 16 + 2 =18;
+
+// 2 + 2 * 4 + 10
+// var cost = (2 + 2) * (4 + 10);
+// console.log(cost); // output: 56
+
+// 2 + 2 * 4 + 10
+// var cost = (2 * 4) + 2 + 10;
+// console.log(cost); // output: 20
+
+// 4 / 2 * 4
+// ?
+
+
+// Chapter 8 
+// (Concatenating Text Strings)
+
+// var num = "2" + "2";
+// console.log(num); // output: 22
+
+// var message = ("Hello," + "Dolly");
+// alert(message);
+
+// alert("33" + 3); // Output: 333
+
+// alert("pakistan"+" "+"Zindabad");
+
+// var result = "The number is " + 5;
+// alert(result)
+
+// var firstNum = "Hello, ";
+// var secondNum = "world!";
+// var result = firstNum + secondNum;
+// alert(result)
+
+
+// Chapter 9
+//  (Prompts)
+
+// var enterName = prompt("Enter your name")
+
+// var country = prompt("Country?", "China");
+// alert("You entered: " + country);
+
+// var yourName = prompt(Enter Your Name"); //Wrong code
+// var yourName = prompt("Enter Your Name"); //Right code 
+// alert(yourName);
+
+// var userName = prompt("What is your name?", "Musadiq");
+// alert(userName)
+
+// var message = "What is your favorite color?";
+// var defaultColor = "Blue";
+// var userColor = prompt(message, defaultColor);
+
+// var answer = prompt("What is your name","Musadiq")
+
+
+// Chapter 10
+// (if statements)
+
+// var city = prompt("Enter Your City Name: ")
+// if (city == "karachi") {
+//     alert("Karachi The City of Lights ")
+// }
+
+
+// var x = 10;
+// var y = 10;
+
+// if (x === y) {
+//     let userZ = prompt("What is the value of z?");
+//     console.log("The value of z is " + userZ)
+//   }
+  
+
+// var ZipCode = 10010
+// if (ZipCode == 10010) {
+//     alert("karachi")
+// } else{
+//     alert("Please write correct city")
+// }
+
+
+// var x = 10;
+// if (x === 10 ) {
+//     var x = 20;
+// }
+// alert(x)
+
+
+// Chapter 11 
+// (Comparison Operators)
+
+// var a = +prompt();
+// var b = +prompt()
+// if (a !== b){
+//     alert("A brabar nh hai B kay ")
+// }
+
+
+// var a = 20;
+// var b = 10;
+// if (a >= b) {
+//     console.log("A is bigger then B")
+//   } else {
+//     console.log("a is small then b");
+//   }
+
+
+// var a = 20;
+// var b = 10;
+// if(a >= b){
+//     alert("i Ask You A is bigger then B or equal then b")
+// }
+
+
+// var num = 10;
+// if(num !== 20){
+//     var num2 = 5;
+// }
+//   alert(num2)
+
+
+// var num1 = 5;
+// var num2 = 10;
+
+// if (num1 !== num2) {
+//   alert("thanks!");
+// }
+
+
+// var UserName = prompt("enter your name")
+// if (UserName !== "Musadiq"){
+//     alert("Error!")
+// }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
